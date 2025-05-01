@@ -1,4 +1,4 @@
-package com.kuvandikov.nfc
+package com.kuvandikov.prefix_suffix_edittext
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.kuvandikov.nfc", appContext.packageName)
+        assertEquals("com.kuvandikov.prefix_suffix_edittext", appContext.packageName)
     }
 }

@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.kuvandikov.nfc"
+    namespace = "com.kuvandikov.prefix_suffix_edittext"
     compileSdk = 34
 
     signingConfigs {
@@ -17,7 +17,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.kuvandikov.nfc"
+        applicationId = "com.kuvandikov.prefix_suffix_edittext"
         minSdk = 26
         versionCode = 1
         versionName = "1.0"

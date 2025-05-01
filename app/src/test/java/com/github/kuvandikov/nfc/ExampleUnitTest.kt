@@ -1,4 +1,4 @@
-package com.kuvandikov.nfc
+package com.kuvandikov.prefix_suffix_edittext
 
 import org.junit.Test
 
