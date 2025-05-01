@@ -1,4 +1,4 @@
-package com.fincube.apexbank.presentation.ui.views.prefixsuffix
+package io.github.kuvandikov.prefixsuffix
 
 import android.graphics.Canvas
 import android.graphics.ColorFilter

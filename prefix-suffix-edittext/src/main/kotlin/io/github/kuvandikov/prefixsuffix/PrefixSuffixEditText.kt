@@ -11,7 +11,6 @@ import android.text.TextPaint
 import android.util.AttributeSet
 import android.util.Log
 import androidx.appcompat.widget.AppCompatEditText
-import com.fincube.apexbank.presentation.ui.views.prefixsuffix.PrefixDrawable
 
 /**
  * [AppCompatEditText] with easy prefix and suffix support.
