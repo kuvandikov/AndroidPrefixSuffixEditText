@@ -85,6 +85,7 @@ class PrefixSuffixEditText constructor(
     public override fun onDraw(c: Canvas) {
         textPaint.color = currentHintTextColor
         textPaint.typeface = typeface
+        textPaint.textSize = textSize
 
         val lineBounds = getLineBounds(0, firstLineBounds)
         prefixDrawable.let {
@@ -108,8 +109,8 @@ class PrefixSuffixEditText constructor(
             // We need to draw this like this because
             // setting a right drawable doesn't work properly and we want this
             // just after the text we are editing (but untouchable)
-            val y2 = firstLineBounds.bottom - textPaint.descent()
-            c.drawText(it, textWidth, y2, textPaint)
+            val baselineY = baseline.toFloat()
+            c.drawText(it, textWidth, baselineY, textPaint)
         }
     }
 
