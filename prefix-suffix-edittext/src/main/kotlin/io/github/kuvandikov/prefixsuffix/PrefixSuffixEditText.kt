@@ -84,6 +84,7 @@ class PrefixSuffixEditText constructor(
 
     public override fun onDraw(c: Canvas) {
         textPaint.color = currentHintTextColor
+        textPaint.typeface = typeface
 
         val lineBounds = getLineBounds(0, firstLineBounds)
         prefixDrawable.let {
