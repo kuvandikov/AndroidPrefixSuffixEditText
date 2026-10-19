@@ -7,13 +7,21 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <io.github.kuvandikov.prefixsuffix.PrefixSuffixEditText
+        android:id="@+id/edit_text"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:layout_marginHorizontal="20dp"
+        android:digits="0123456789. "
+        android:imeOptions="actionDone"
+        android:inputType="numberDecimal"
+        android:lineSpacingExtra="4sp"
+        android:fontFamily="@font/tt_commons_pro_expanded_demibold"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:suffix="сум" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
